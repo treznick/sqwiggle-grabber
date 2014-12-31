@@ -1,5 +1,5 @@
-require 'sqwiggle_grabber/user_grabber.rb'
-require 'sqwiggle_grabber/file_downloader.rb'
+require 'lib/sqwiggle_grabber/user_grabber.rb'
+require 'lib/sqwiggle_grabber/file_downloader.rb'
 require 'yaml'
 
 grabber = UserGrabber.new(YAML.load_file('token.yml').api_token)
